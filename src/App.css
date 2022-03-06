@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+  font-family: "PT Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home,
+.consulting,
+.contactus,
+.design,
+.development,
+.marketing,
+.products,
+.services,
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  text-shadow: 4px 4px 4px #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .home {
+  background-image: url(./images/home.jpg);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.consulting {
+  background-image: url(./images/consulting.jpg);
+}
+
+.design {
+  background-image: url(./images/design.jpg);
+}
+
+.development {
+  background-image: url(./images/development.jpg);
+}
+
+.marketing {
+  background-image: url(./images/marketing.jpg);
+}
+
+.products {
+  background-image: url(./images/products.jpg);
+}
+
+.contactus {
+  background-image: url(./images/contactus.jpg);
+}
+
+.services {
+  background-image: url(./images/services.jpg);
+}
+
+.signup {
+  background-image: url(./images/signup.jpg);
+} */
+.component-1 {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content:center;
+  align-items: center;
+  align-self: center;
+  height: 200px;
+}
+.component-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content:center;
+  align-items: center;
+  align-self: center;
+}
+.Home-component {
+  /* The image used */
+  background-image: url(./images/home.jpg);
+  display:flex;
+  /* Full height */
+  height: 80%; 
+  width: 80%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content:center;
+  align-items: center;
+  align-self: center;
+}
+.product-component {
+  /* The image used */
+  background-image: url(./images/products.jpg);
+  display:flex;
+  /* Full height */
+  height: 80%; 
+  width: 80%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content:center;
+  align-items: center;
+  align-self: center;
+}
+.service-component {
+  /* The image used */
+  background-image: url(./images/services.jpg);
+  display:flex;
+  /* Full height */
+  height: 80%; 
+  width: 80%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content:center;
+  align-items: center;
+  align-self: center;
+}
+.wrapper{
+  display:flex;
+  flex-direction: column;
+}
+.wrapper-horizontal{
+  display:flex;
+  flex-direction: row;
+}
+.nftImages {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 45%;
+  margin: 0 0 1em 0;
+  padding: 1em;
+  border: 1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nftImages img {
+  margin: 0.5em 0;
 }
