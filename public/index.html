@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -10,25 +10,434 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <!-- <script type="text/javascript" async="" src="%PUBLIC_URL%/js/analytics.js"></script>
+    <script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&amp;version=v6.0&amp;autoLogAppEvents=1"></script> -->
+    <!-- <script async="" src="%PUBLIC_URL%/js/fbevents.js"></script> -->
+    <script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+				<style>
+          #wpadminbar #wp-admin-bar-wccp_free_top_button .ab-icon:before {
+            content: "\f160";
+            color: #02CA02;
+            top: 3px;
+          }
+          #wpadminbar #wp-admin-bar-wccp_free_top_button .ab-icon {
+            transform: rotate(45deg);
+          }
+        </style>
+        <script>
+          window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/gallerybangladesh.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.7"}};
+          !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+        </script>
+        <script src="%PUBLIC_URL%/js/wp-emoji-release.min.js?ver=5.6.7" type="text/javascript" defer=""></script>
+        <style>
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 .07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+    </style>
+    <link rel="stylesheet" id="fontpicker-default-theme-css" href="%PUBLIC_URL%/css/fonticonpicker.base-theme.react.css?ver=5.6.7" media="all">
+    <link rel="stylesheet" id="fontpicker-matetial-theme-css" href="%PUBLIC_URL%/css/fonticonpicker.material-theme.react.css?ver=5.6.7" media="all">
+    <link rel="stylesheet" id="fontawesome-frontend-css-css" href="%PUBLIC_URL%/css/font-awesome5.css?ver=5.6.7" media="all">
+    <link rel="stylesheet" id="wp-block-library-css" href="%PUBLIC_URL%/css/style.min.css?ver=5.6.7" media="all">
+    <link rel="stylesheet" id="wp-block-library-theme-css" href="%PUBLIC_URL%/css/theme.min.css?ver=5.6.7" media="all">
+    <link rel="stylesheet" id="create-block-accordion-block-css" href="%PUBLIC_URL%/css/style-index.css?ver=1618427214" media="all">
+    <link rel="stylesheet" id="wp-components-css" href="%PUBLIC_URL%/css/dist/components/style.min.css?ver=5.6.7" media="all">
+    <link rel="stylesheet" id="wp-editor-font-css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&amp;ver=5.6.7" media="all">
+    <link rel="stylesheet" id="wp-block-editor-css" href="%PUBLIC_URL%/css/block-editor/style.min.css?ver=5.6.7" media="all">
+    <link rel="stylesheet" id="wp-nux-css" href="%PUBLIC_URL%/css/style.min.css?ver=5.6.7" media="all">
+    <link rel="stylesheet" id="wp-editor-css" href="%PUBLIC_URL%/css/style.min.css?ver=5.6.7" media="all">
+    <link rel="stylesheet" id="eedee-lorem_ipsum_block-style-css-css" href="%PUBLIC_URL%/css/blocks.style.build.css?ver=1618472118" media="all">
+    <link rel="stylesheet" id="wc-block-vendors-style-css" href="%PUBLIC_URL%/css/vendors-style.css?ver=4.0.0" media="all">
+    <link rel="stylesheet" id="wc-block-style-css" href="%PUBLIC_URL%/css/style.css?ver=4.0.0" media="all">
+    <link rel="stylesheet" id="jquery-selectBox-css" href="%PUBLIC_URL%/css/jquery.selectBox.css?ver=1.2.0" media="all">
+    <link rel="stylesheet" id="yith-wcwl-font-awesome-css" href="%PUBLIC_URL%/css/font-awesome.css?ver=4.7.0" media="all">
+    <link rel="stylesheet" id="yith-wcwl-main-css" href="%PUBLIC_URL%/css/yith-woocommerce-wishlist/assets/css/style.css?ver=3.0.22" media="all">
+    <style id="yith-wcwl-main-inline-css">
+    .yith-wcwl-share li a{color: #FFFFFF;}.yith-wcwl-share li a:hover{color: #FFFFFF;}.yith-wcwl-share a.facebook{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.facebook:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.twitter{background: #45AFE2; background-color: #45AFE2;}.yith-wcwl-share a.twitter:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.pinterest{background: #AB2E31; background-color: #AB2E31;}.yith-wcwl-share a.pinterest:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.email{background: #FBB102; background-color: #FBB102;}.yith-wcwl-share a.email:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.whatsapp{background: #00A901; background-color: #00A901;}.yith-wcwl-share a.whatsapp:hover{background: #39599E; background-color: #39599E;}
+    </style>
+    <link rel="stylesheet" id="rs-plugin-settings-css" href="h%PUBLIC_URL%/css/rs6.css?ver=6.2.23" media="all">
+    <style id="rs-plugin-settings-inline-css">
+    /* #rs-demo-id {} */
+    </style>
+    <style id="woocommerce-inline-inline-css">
+    .woocommerce form .form-row .required { visibility: visible; }
+    </style>
+    <link rel="stylesheet" id="woocommerce_prettyPhoto_css-css" href="%PUBLIC_URL%/css/prettyPhoto.css?ver=3.1.6" media="all">
+    <link rel="stylesheet" id="goya-style-css" href="%PUBLIC_URL%/css/style.css?ver=5.6.7" media="all">
+    <link rel="stylesheet" id="goya-child-style-css" href="%PUBLIC_URL%/css/style.css?ver=1.0" media="all">
+    <link rel="stylesheet" id="goya-icons-css" href="%PUBLIC_URL%/css/style.css?ver=1.0.3" media="all">
+    <link rel="stylesheet" id="goya-fonts-css" href="%PUBLIC_URL%/css/fonts.css?ver=1.0.3" media="all">
+    <link rel="stylesheet" id="goya-grid-css" href="%PUBLIC_URL%/css/grid.css?ver=1.0.3" media="all">
+    <link rel="stylesheet" id="goya-core-css" href="%PUBLIC_URL%/css/core.css?ver=1.0.3" media="all">
+    <link rel="stylesheet" id="goya-wishlist-css" href="%PUBLIC_URL%/css/wishlist.css?ver=1.0.3" media="all">
+    <link rel="stylesheet" id="goya-shop-css" href="%PUBLIC_URL%/css/shop.css?ver=1.0.3" media="all">
+    <link rel="stylesheet" id="goya-elements-css" href="%PUBLIC_URL%/css/vc-elements.css?ver=1.0.3" media="all">
+    <style id="goya-customizer-styles-inline-css">
+    body,blockquote cite {line-height:1.7;color:#585858;}body,blockquote cite,.entry-content h2,.post-sidebar .widget > h6,.entry-content h2,.mfp-content h2,.footer h2,.entry-content h3,.mfp-content h3,.footer h3,.entry-content h4,.mfp-content h4,.footer h4,.et-banner-text .et-banner-title,.woocommerce-order-received h2,.woocommerce-MyAccount-content h2,.woocommerce-MyAccount-content h3,.woocommerce-checkout h3,.order_review_heading,.woocommerce-MyAccount-content legend,.related h2,.up-sells h2,.cross-sells h2,.cart-collaterals h5,.cart-collaterals h3,.cart-collaterals h2,.related-posts .related-title,.et_post_nav .post_nav_link h3,.comment-reply-title,.comment-reply-title .button,.product-details-accordion .woocommerce-Reviews-title,.comments-container .comments-title {font-family:Jost, sans-serif;font-weight:400;}h1,.page-header .page-title,.entry-header .entry-title,.et-shop-title,.product-showcase.product-title-top .product_title,.et-product-detail .summary h1.product_title,.entry-title.blog-title,.post.post-detail .entry-header .entry-title,.post.post-detail .post-featured .entry-header .entry-title,blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6, blockquote p,.post-sidebar .widget > h6,.entry-content:not(.wc-tab) h2,.mfp-content h2,.footer h2,.entry-content .wc-tab h2,.entry-content h3,.mfp-content h3,.footer h3,.entry-content h4,.mfp-content h4,.footer h4,.et-banner-text .et-banner-title,.woocommerce-order-received h2,.woocommerce-MyAccount-content h2,.woocommerce-MyAccount-content h3,.woocommerce-checkout h3,.order_review_heading,.woocommerce-MyAccount-content legend,.et-portfolio .type-portfolio h3,.related h2,.up-sells h2,.cross-sells h2,.cart-collaterals h5,.cart-collaterals h3,.cart-collaterals h2,.related-posts .related-title,.et_post_nav .post_nav_link h3,.comments-container .comments-title,.comment-reply-title,.product-details-accordion .woocommerce-Reviews-title,.wp-block-cover .wp-block-cover-text,.wp-block-cover .wp-block-cover__inner-container,.wp-block-cover-image .wp-block-cover-image-text,.wp-block-cover-image h2,.revslider-slide-title,.font-catcher {font-family:Jost, sans-serif,sans-serif;font-weight:400;}body,blockquote cite,div.vc_progress_bar .vc_single_bar .vc_label,div.vc_toggle_size_sm .vc_toggle_title h4 {font-size:16px;}.wp-caption-text,.woocommerce-breadcrumb,.post.listing .listing_content .post-meta,.footer-bar .footer-bar-content,.side-menu .mobile-widgets p,.side-menu .side-widgets p,.shop_table.cart tbody tr td .update-cart,.shop_table.cart tbody tr td .remove_item,.products .product.product-category a div h2 .count,#payment .payment_methods li .payment_box,#payment .payment_methods li a.about_paypal,.et-product-detail .summary .sizing_guide,#reviews .commentlist li .comment-text .woocommerce-review__verified,#reviews .commentlist li .comment-text .woocommerce-review__published-date,.commentlist > li .comment-meta,.widget .type-post .post-meta,.widget_rss .rss-date,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.commentlist > li .reply,.comment-reply-title small,.commentlist .bypostauthor .post-author,.commentlist .bypostauthor > .comment-body .fn:after,.et-portfolio.et-portfolio-style-hover-card .type-portfolio .et-portfolio-excerpt {font-size:14px;}h1, h2, h3, h4, h5, h6{color:#282828;}.button,input[type=submit]{background-color:#282828;}.et-product-detail .single_add_to_cart_button,.products:not(.shop_display_list) .et-listing-style4 .after_shop_loop_actions .add_to_cart_button.button,.woocommerce-mini-cart__buttons .button.checkout,.button.checkout-button,#place_order.button,.woocommerce .argmc-wrapper .argmc-nav-buttons .argmc-submit {background-color:#000000;}.product-showcase-light-text .showcase-inner .single_add_to_cart_button {color:#181818;background-color:#ffffff;}.button.outlined,.button.outlined:hover,.woocommerce-Reviews .comment-reply-title:hover {color:#282828;opacity:1;}input[type="text"],input[type="password"],input[type="number"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="time"],input[type="month"],input[type="week"],input[type="email"],input[type="search"],input[type="tel"],input[type="url"],input.input-text,select,textarea,.nf-form-cont .nf-form-content .list-select-wrap .nf-field-element > div,.nf-form-cont .nf-form-content input:not([type="button"]),.nf-form-cont .nf-form-content textarea,.nf-form-cont .nf-form-content .submit-wrap .ninja-forms-field,.button,.el-style-border-bottom .mc4wp-form-fields input[type="email"],.comment-form-rating,.woocommerce a.ywsl-social,.login a.ywsl-social,input[type=submit],.select2.select2-container--default .select2-selection--single,.woocommerce .woocommerce-MyAccount-content .shop_table .woocommerce-button,.woocommerce .sticky-product-bar .quantity,.woocommerce .et-product-detail .summary .quantity,div.argmc-customer-details,div.argmc-wrapper .argmc-billing-details,div.argmc-wrapper .argmc-shipping-details,.et-product-detail .summary .yith-wcwl-add-to-wishlist > div > a,.wishlist_table .add_to_cart.button,.yith-wcwl-add-button a.add_to_wishlist,.yith-wcwl-popup-button a.add_to_wishlist,.wishlist_table a.ask-an-estimate-button,.wishlist-title a.show-title-form,.hidden-title-form a.hide-title-form,.woocommerce .yith-wcwl-wishlist-new button,.wishlist_manage_table a.create-new-wishlist,.wishlist_manage_table button.submit-wishlist-changes,.yith-wcwl-wishlist-search-form button.wishlist-search-button,#side-filters.side-panel .et-close {border-radius:0px;}.et-banner .et-banner-content .et-banner-title.color-accent,.et-banner .et-banner-content .et-banner-subtitle.color-accent,.et-banner .et-banner-content .et-banner-link.link.color-accent,.et-banner .et-banner-content .et-banner-link.link.color-accent:hover,.et-banner .et-banner-content .et-banner-link.outlined.color-accent,.et-banner .et-banner-content .et-banner-link.outlined.color-accent:hover {color:#b9a16b;}.et-banner .et-banner-content .et-banner-subtitle.tag_style.color-accent,.et-banner .et-banner-content .et-banner-link.solid.color-accent,.et-banner .et-banner-content .et-banner-link.solid.color-accent:hover {background:#b9a16b;}.et-iconbox.icon-style-background.icon-color-accent .et-feature-icon {background:#b9a16b;}.et-iconbox.icon-style-border.icon-color-accent .et-feature-icon,.et-iconbox.icon-style-simple.icon-color-accent .et-feature-icon {color:#b9a16b;}.et-counter.counter-color-accent .h1,.et-counter.icon-color-accent i {color:#b9a16b;}.et_btn.solid.color-accent {background:#b9a16b;}.et_btn.link.color-accent,.et_btn.outlined.color-accent,.et_btn.outlined.color-accent:hover {color:#b9a16b;}.et-animatype.color-accent .et-animated-entry,.et-stroketype.color-accent *{color:#b9a16b;}.slick-prev:hover,.slick-next:hover,.flex-prev:hover,.flex-next:hover,.mfp-wrap.quick-search .mfp-content [type="submit"],.et-close,.single-product .pswp__button:hover,.content404 h4,.et-cart-empty .cart-empty,.woocommerce-tabs .tabs li a span,.woo-variation-gallery-wrapper .woo-variation-gallery-trigger:hover:after,.mobile-menu li.menu-item-has-children.active > .et-menu-toggle:after,.mobile-menu li.menu-item-has-children > .et-menu-toggle:hover,.remove:hover, a.remove:hover,span.minicart-counter.et-count-zero,.tag-cloud-link .tag-link-count,.star-rating > span:before,.comment-form-rating .stars > span:before,.wpmc-tabs-wrapper li.wpmc-tab-item.current,div.argmc-wrapper .tab-completed-icon:before,div.argmc-wrapper .argmc-tab-item.completed .argmc-tab-number,.widget .wc-layered-nav-rating.chosen,.widget ul li.active,.woocommerce .widget_layered_nav ul.yith-wcan-list li.chosen a,.woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a,.widget.widget_layered_nav li.chosen a, .widget.widget_layered_nav li.current-cat a,.widget.widget_layered_nav_filters li.chosen a,.widget.widget_layered_nav_filters li.current-cat a,.et-wp-gallery-popup .mfp-arrow,.et-page-load-overlay .dot3-loader {color:#b9a16b;}.accent-color:not(.fancy-tag),.accent-color:not(.fancy-tag) .wpb_wrapper > h1,.accent-color:not(.fancy-tag) .wpb_wrapper > h2,.accent-color:not(.fancy-tag) .wpb_wrapper > h3,.accent-color:not(.fancy-tag) .wpb_wrapper > h4,.accent-color:not(.fancy-tag) .wpb_wrapper > h5,.accent-color:not(.fancy-tag) .wpb_wrapper > h6,.accent-color:not(.fancy-tag) .wpb_wrapper > p {color:#b9a16b !important;}.accent-color.fancy-tag,.wpb_text_column .accent-color.fancy-tag:last-child,.accent-color.fancy-tag .wpb_wrapper > h1,.accent-color.fancy-tag .wpb_wrapper > h2,.accent-color.fancy-tag .wpb_wrapper > h3,.accent-color.fancy-tag .wpb_wrapper > h4,.accent-color.fancy-tag .wpb_wrapper > h5,.accent-color.fancy-tag .wpb_wrapper > h6,.accent-color.fancy-tag .wpb_wrapper > p {background-color:#b9a16b;}.wpmc-tabs-wrapper li.wpmc-tab-item.current .wpmc-tab-number,.wpmc-tabs-wrapper li.wpmc-tab-item.current:before,.tag-cloud-link:hover,div.argmc-wrapper .argmc-tab-item.completed .argmc-tab-number,div.argmc-wrapper .argmc-tab-item.current .argmc-tab-number,div.argmc-wrapper .argmc-tab-item.last.current + .argmc-tab-item:hover .argmc-tab-number,.woocommerce .widget_layered_nav ul.yith-wcan-list li.chosen a,.woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a,.widget.widget_layered_nav li.chosen a,.widget.widget_layered_nav li.current-cat a,.widget.widget_layered_nav_filters li.chosen a,.widget.widget_layered_nav_filters li.current-cat a,.widget.widget_layered_nav .et-widget-color-filter li.chosen a:hover:before,.woocommerce-product-gallery .flex-control-thumbs li img.flex-active {border-color:#b9a16b;}.mfp-close.scissors-close:hover:before,.mfp-close.scissors-close:hover:after,.remove:hover:before,.remove:hover:after,#side-cart .remove:hover:before,#side-cart .remove:hover:after,#side-cart.dark .remove:hover:before,#side-cart.dark .remove:hover:after,.yith-wcan-loading:after,.blockUI.blockOverlay:after,.easyzoom-notice:after,.woocommerce-product-gallery__wrapper .slick:after,.add_to_cart_button.loading:after,.et-loader:after,#side-filters.ajax-loader .et-close,.vc_progress_bar.vc_progress-bar-color-bar_orange .vc_single_bar span.vc_bar,span.minicart-counter,.et-active-filters-count,div.argmc-wrapper .argmc-tab-item.current .argmc-tab-number,div.argmc-wrapper .argmc-tab-item.visited:hover .argmc-tab-number,div.argmc-wrapper .argmc-tab-item.last.current + .argmc-tab-item:hover .argmc-tab-number,.slick-dots li button:hover,.wpb_column.et-light-column .postline:before,.wpb_column.et-light-column .postline-medium:before,.wpb_column.et-light-column .postline-large:before,.et-feat-video-btn:hover .et-featured-video-icon:after,.post.type-post.sticky .entry-title a:after {background-color:#b9a16b;}div.argmc-wrapper .argmc-tab-item.visited:before {border-bottom-color:#b9a16b;}.fancy-title,h1.fancy-title,h2.fancy-title,h3.fancy-title,h4.fancy-title,h5.fancy-title,h6.fancy-title {color:#b9a16b}.fancy-tag,h1.fancy-tag,h2.fancy-tag,h3.fancy-tag,h4.fancy-tag,h5.fancy-tag,h6.fancy-tag {background-color:#282828}.header,.header-spacer,.product-header-spacer {height:90px;}.page-header-transparent .hero-header .hero-title {padding-top:90px;}@media only screen and (min-width:992px) {.et-product-detail.et-product-layout-no-padding.product-header-transparent .showcase-inner .product-information {padding-top:90px;}.header_on_scroll:not(.megamenu-active) .header {height:70px;}}@media only screen and (max-width:991px) {.header,.header_on_scroll .header,.header-spacer,.product-header-spacer {height:70px;}.page-header-transparent .hero-header .hero-title {padding-top:70px;}}@media screen and (min-width:576px) and (max-width:767px) {.sticky-product-bar {height:70px;}.product-bar-visible.single-product.fixed-product-bar-bottom .footer {margin-bottom:70px;}.product-bar-visible.single-product.fixed-product-bar-bottom #scroll_to_top.active {bottom:80px;}}.header .menu-holder {min-height:39px;}@media only screen and (max-width:767px) {.header .menu-holder {min-height:30px;}}.header .logolink .logoimg {max-height:39px;}@media only screen and (max-width:767px) {.header .logolink .logoimg {max-height:30px;}}.top-bar {background-color:#282828;height:40px;line-height:40px;}.top-bar,.top-bar a,.top-bar .selected {color:#eeeeee;}.et-global-campaign {background-color:#81d8d0;color:#ffffff;height:40px;}.et-global-campaign .remove:before,.et-global-campaign .remove:after {background-color:#ffffff;}.page-header-regular .header,.header_on_scroll .header {background-color:#ffffff;}@media only screen and (max-width:576px) {.page-header-transparent:not(.header-transparent-mobiles):not(.header_on_scroll) .header {background-color:#ffffff;}}.header a,.header .menu-toggle,.header .goya-search button {color:#000000;}@media only screen and (max-width:767px) {.sticky-header-light .header .menu-toggle:hover,.header-transparent-mobiles.sticky-header-light.header_on_scroll .header a.icon,.header-transparent-mobiles.sticky-header-light.header_on_scroll .header .menu-toggle,.header-transparent-mobiles.light-title:not(.header_on_scroll) .header a.icon,.header-transparent-mobiles.light-title:not(.header_on_scroll) .header .menu-toggle {color:#ffffff;}}@media only screen and (min-width:768px) {.light-title:not(.header_on_scroll) .header .site-title,.light-title:not(.header_on_scroll) .header .et-header-menu>li> a,.sticky-header-light.header_on_scroll .header .et-header-menu>li> a,.light-title:not(.header_on_scroll) span.minicart-counter.et-count-zero,.sticky-header-light.header_on_scroll .header .icon,.sticky-header-light.header_on_scroll .header .menu-toggle,.light-title:not(.header_on_scroll) .header .icon,.light-title:not(.header_on_scroll) .header .menu-toggle {color:#ffffff;}}.et-header-menu .menu-label,.mobile-menu .menu-label {background-color:#aaaaaa;}.et-header-menu ul.sub-menu:before,.et-header-menu .sub-menu .sub-menu {background-color:#ffffff;}.et-header-menu>li.menu-item-has-children > a:after {border-bottom-color:#ffffff;}.et-header-menu ul.sub-menu li a {color:#444444;}.side-panel .mobile-bar,.side-panel .mobile-bar.dark {background:#f8f8f8;}.side-mobile-menu,.side-mobile-menu.dark { background:#ffffff;}.side-fullscreen-menu,.side-fullscreen-menu.dark { background:#ffffff;}.site-footer,.site-footer.dark {background-color:#ffffff;}.site-footer .footer-bar.custom-color-1,.site-footer .footer-bar.custom-color-1.dark {background-color:#2d2d2d;}.mfp #et-quickview {max-width:960px;}.et-shop-widget-scroll{max-height:150px;}.star-rating > span:before,.comment-form-rating .stars > span:before {color:#282828;}.product-inner .badge.onsale,.wc-block-grid .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-onsale {color:#ef5c5c;background-color:#ffffff;}.et-product-detail .summary .badge.onsale {border-color:#ef5c5c;}.product-inner .badge.new {color:#585858;background-color:#ffffff;}.product-inner .badge.out-of-stock {color:#585858;background-color:#ffffff;}@media screen and (min-width:768px) {.wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-image {margin-top:5px;}.wc-block-grid__products .wc-block-grid__product:hover .wc-block-grid__product-image {transform:translateY(-5px);}.wc-block-grid__products .wc-block-grid__product:hover .wc-block-grid__product-image img {-moz-transform:scale(1.05, 1.05);-ms-transform:scale(1.05, 1.05);-webkit-transform:scale(1.05, 1.05);transform:scale(1.05, 1.05);}}.et-blog.hero-header .hero-title {background-color:#f8f8f8;}.post.post-detail.hero-title .post-featured.title-wrap {background-color:#f8f8f8;}.has-gutenberg-white-color { color:#ffffff !important; }.has-gutenberg-white-background-color { background-color:#ffffff; }.wp-block-button.outlined .has-gutenberg-white-color { border-color:#ffffff !important; background-color:transparent !important; }.has-gutenberg-shade-color { color:#f8f8f8 !important; }.has-gutenberg-shade-background-color { background-color:#f8f8f8; }.wp-block-button.outlined .has-gutenberg-shade-color { border-color:#f8f8f8 !important; background-color:transparent !important; }.has-gutenberg-gray-color { color:#777777 !important; }.has-gutenberg-gray-background-color { background-color:#777777; }.wp-block-button.outlined .has-gutenberg-gray-color { border-color:#777777 !important; background-color:transparent !important; }.has-gutenberg-dark-color { color:#282828 !important; }.has-gutenberg-dark-background-color { background-color:#282828; }.wp-block-button.outlined .has-gutenberg-dark-color { border-color:#282828 !important; background-color:transparent !important; }.has-gutenberg-accent-color { color:#b9a16b !important; }.has-gutenberg-accent-background-color { background-color:#b9a16b; }.wp-block-button.outlined .has-gutenberg-accent-color { border-color:#b9a16b !important; background-color:transparent !important; }.commentlist .bypostauthor > .comment-body .fn:after {content:'Post Author';}.et-inline-validation-notices .form-row.woocommerce-invalid-required-field:after{content:'Required field';}.post.type-post.sticky .entry-title a:after {content:'Featured';}.header .logolink .logoimg {display:block;max-height:24px;max-width:300px;}@media screen and (min-width:768px){.products .product .product_thumbnail img {width:100%;-moz-transform:scale(1, 1);-ms-transform:scale(1, 1);-webkit-transform:scale(1, 1);transform:scale(1, 1);backface-visibility:hidden;transform-origin:center center;height:250px;}}.et-banner .et-banner-content {position:absolute;top:0;left:0;z-index:2;width:100%;height:400px !important;}.pswp__ui {-webkit-font-smoothing:auto;visibility:visible;opacity:1;z-index:1550;display:none;}p.downloadable_ele_title {width:auto !important;min-width:115px !important;margin-bottom:0px!important;color:white;}.wcfm_products_limit_label {padding:2px 10px;font-size:15px;color:#ffffff!important;border:1px solid #ffffff!important;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;display:inline-block;float:none;}
+    </style>
+    <link rel="stylesheet" id="js_composer_front-css" href="%PUBLIC_URL%/css/js_composer.min.css?ver=6.4.0" media="all">
+    <link rel="stylesheet" id="woo-variation-swatches-css" href="%PUBLIC_URL%/css/frontend.min.css?ver=1.1.17" media="all">
+    <style id="woo-variation-swatches-inline-css">
+    .variable-item:not(.radio-variable-item) { width : 30px; height : 30px; } .wvs-style-squared .button-variable-item { min-width : 30px; } .button-variable-item span { font-size : 16px; }
+    </style>
+    <link rel="stylesheet" id="woo-variation-swatches-theme-override-css" href="%PUBLIC_URL%/css/wvs-theme-override.min.css?ver=1.1.17" media="all">
+    <link rel="stylesheet" id="woo-variation-swatches-tooltip-css" href="%PUBLIC_URL%/css/frontend-tooltip.min.css?ver=1.1.17" media="all">
+    <link rel="stylesheet" id="jquery-ui-style-css" href="%PUBLIC_URL%/css/jquery-ui.min.css?ver=5.0.0" media="all">
+    <link rel="stylesheet" id="wcfm_fa_icon_css-css" href="%PUBLIC_URL%/css/wcfmicon.min.css?ver=6.5.6" media="all">
+    <link rel="stylesheet" id="wcfm_core_css-css" href="%PUBLIC_URL%/css/wcfm-style-core.css?ver=6.5.6" media="all">
+    <script type="text/template" id="tmpl-variation-template">
+      <div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+      <div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+      <div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+    </script>
+    <script type="text/template" id="tmpl-unavailable-variation-template">
+      <p>Sorry, this product is unavailable. Please choose a different combination.</p>
+    </script>
+    <script src="%PUBLIC_URL%/js/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
+    <!-- <script src="%PUBLIC_URL%/js/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js/lodash.min.js?ver=4.17.21" id="lodash-js"></script> -->
+    <!-- <script id="lodash-js-after">
+    window.lodash = _.noConflict();
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/wp-polyfill.min.js?ver=7.4.4" id="wp-polyfill-js"></script>
+    <script id="wp-polyfill-js-after">
+    ( 'fetch' in window ) || document.write( '<script src="%PUBLIC_URL%/js/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://gallerybangladesh.com/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://gallerybangladesh.com/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://gallerybangladesh.com/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://gallerybangladesh.com/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://gallerybangladesh.com/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/react.min.js?ver=16.13.1" id="react-js"></script> -->
+    <script src="%PUBLIC_URL%/js/i18n.min.js?ver=9e36b5da09c96c657b0297fd6f7cb1fd" id="wp-i18n-js"></script>
+    <script src="%PUBLIC_URL%/js/url.min.js?ver=1b4bb2b3f526a1db366ca3147ac39562" id="wp-url-js"></script>
+    <script src="%PUBLIC_URL%/js/hooks.min.js?ver=d0d9f43e03080e6ace9a3dabbd5f9eee" id="wp-hooks-js"></script>
+    <!-- <script id="wp-api-fetch-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/api-fetch.min.js?ver=c207d2d188ba8bf763f7acd50b7fd5a9" id="wp-api-fetch-js"></script> -->
+    <!-- <script id="wp-api-fetch-js-after">
+    wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://gallerybangladesh.com/wp-json/" ) );
+    wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "658448e045" );
+    wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+    wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware ); 
+    wp.apiFetch.nonceEndpoint = "https://gallerybangladesh.com/wp-admin/admin-ajax.php?action=rest-nonce";
+    </script>-->
+    <!-- <script src="%PUBLIC_URL%/js/autop.min.js?ver=e34d2621e1f0dad60385333bd1afd228" id="wp-autop-js"></script>
+    <script src="%PUBLIC_URL%/js/vendor/react-dom.min.js?ver=16.13.1" id="react-dom-js"></script>
+    <script src="%PUBLIC_URL%/js/dom-ready.min.js?ver=93db39f6fe07a70cb9217310bec0a531" id="wp-dom-ready-js"></script>
+    <script id="wp-a11y-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/a11y.min.js?ver=f23e5b9c6e4214e0ec04d318a7c9f898" id="wp-a11y-js"></script>
+    <script src="%PUBLIC_URL%/js/blob.min.js?ver=125149076a58ec206a0a8ed2cf6b6894" id="wp-blob-js"></script>
+    <script src="%PUBLIC_URL%/js/block-serialization-default-parser.min.js?ver=1ad42c18fd77dc8c8370f25dddd73a7f" id="wp-block-serialization-default-parser-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js/escape-html.min.js?ver=cf3ba719eafb9297c5843cfc50c8f87e" id="wp-escape-html-js"></script>
+    <script src="%PUBLIC_URL%/js/element.min.js?ver=706303a9fd2fa288eac1331e8741b55b" id="wp-element-js"></script>
+    <script src="%PUBLIC_URL%/js/is-shallow-equal.min.js?ver=9b9485fde3a57e7ab33df6b14011ae5b" id="wp-is-shallow-equal-js"></script>
+    <script src="%PUBLIC_URL%/js/priority-queue.min.js?ver=1c942d9a6078a04ec1c4fb9ea8278f65" id="wp-priority-queue-js"></script>
+    <script src="%PUBLIC_URL%/js/compose.min.js?ver=bfc9b31971dbb3710b604b3240d0f413" id="wp-compose-js"></script>
+    <script src="%PUBLIC_URL%/js/deprecated.min.js?ver=ff631a4000dc785473645d3ab52385e3" id="wp-deprecated-js"></script>
+    <script src="%PUBLIC_URL%/js/redux-routine.min.js?ver=d8c1e4e916d317be15a3ffd3f4987df4" id="wp-redux-routine-js"></script>
+    <script src="%PUBLIC_URL%/js/data.min.js?ver=9cdf7f7ecf4c20f88e45e3523e5ae261" id="wp-data-js"></script>
+    <script id="wp-data-js-after">
+    ( function() {
+      var userId = 0;
+      var storageKey = "WP_DATA_USER_" + userId;
+      wp.data
+        .use( wp.data.plugins.persistence, { storageKey: storageKey } );
+      wp.data.plugins.persistence.__unstableMigrate( { storageKey: storageKey } );
+    } )();
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/dom.min.js?ver=5490d2c4df70dd60b44aa0c3d6f809f7" id="wp-dom-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js/html-entities.min.js?ver=abfd8b9e347825581deb4984c249c287" id="wp-html-entities-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js/primitives.min.js?ver=a7cdfa5293e15b0323199249d74ac1a0" id="wp-primitives-js"></script>
+    <script src="%PUBLIC_URL%/js/shortcode.min.js?ver=459507198f077623ff1359ce8e372229" id="wp-shortcode-js"></script>
+    <script id="wp-blocks-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/blocks.min.js?ver=7227df7d1e7b46c8f3c7f8658201a560" id="wp-blocks-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js/vendor/moment.min.js?ver=2.26.0" id="moment-js"></script>
+    <script id="moment-js-after">
+    moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":6},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"d\/m\/Y","LLL":"F j, Y g:i a","LLLL":null}} );
+    </script>
+    <script src="%PUBLIC_URL%/js/date.min.js?ver=b84140e458419d65dfa2492ed2e6745e" id="wp-date-js"></script>
+    <script id="wp-date-js-after">
+    wp.date.setSettings( {"l10n":{"locale":"en_US","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago"}},"formats":{"time":"g:i a","date":"d\/m\/Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":"6","string":"","abbr":""}} );
+    </script>
+    <script id="wp-keycodes-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/keycodes.min.js?ver=13d5d002b3d69cd53f22ab7cb4c56d11" id="wp-keycodes-js"></script>
+    <script src="%PUBLIC_URL%/js/rich-text.min.js?ver=e8d71d28b8e9961543e85d635d569e49" id="wp-rich-text-js"></script>
+    <script src="%PUBLIC_URL%/js/warning.min.js?ver=3090d66f4d52ea11ae509fece459c35e" id="wp-warning-js"></script> -->
+    <!-- <script id="wp-components-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/components.min.js?ver=0e32c09e58dda35c20a008350498cf91" id="wp-components-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js/keyboard-shortcuts.min.js?ver=678727b8ee630962387664caf4cf3f12" id="wp-keyboard-shortcuts-js"></script>
+    <script src="%PUBLIC_URL%/js/notices.min.js?ver=e61d908bb49d9a09d1f7170734d600a0" id="wp-notices-js"></script>
+    <script src="%PUBLIC_URL%/js/token-list.min.js?ver=fd337e4558ebf613432fe88773727e70" id="wp-token-list-js"></script>
+    <script src="%PUBLIC_URL%/js/viewport.min.js?ver=c768af596e50f338b259a9266cf7f508" id="wp-viewport-js"></script>
+    <script src="%PUBLIC_URL%/js/wordcount.min.js?ver=71f8a55e379c2edca72486a1efd521c9" id="wp-wordcount-js"></script> -->
+    <!-- <script id="wp-block-editor-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/block-editor.min.js?ver=08588f17bc9910d2156b346dec6964ad" id="wp-block-editor-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js//data-controls.min.js?ver=c3fdf3f41e8b17247fbce3ade92635ca" id="wp-data-controls-js"></script> -->
+    <!-- <script id="wp-core-data-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/core-data.min.js?ver=8c425c27f249a685b2dde58a0c845050" id="wp-core-data-js"></script> -->
+    <!-- <script id="wp-media-utils-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/media-utils.min.js?ver=eb208ea6cf404c25226c9086c3a1ea17" id="wp-media-utils-js"></script> -->
+    <!-- <script id="wp-reusable-blocks-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/reusable-blocks.min.js?ver=0b7e25b1576a32e967d38a618aeb3d25" id="wp-reusable-blocks-js"></script> -->
+    <!-- <script id="wp-server-side-render-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%s/js/server-side-render.min.js?ver=40de7a6d8dff5ce5b9cb90bd7b9b411a" id="wp-server-side-render-js"></script> -->
+    <!-- <script id="wp-editor-js-translations">
+    ( function( domain, translations ) {
+      var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+      localeData[""].domain = domain;
+      wp.i18n.setLocaleData( localeData, domain );
+    } )( "default", { "locale_data": { "messages": { "": {} } } } );
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/editor.min.js?ver=54a5e3c8b42fa0bf83eb31e80e57c5e8" id="wp-editor-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js/frontend.js?ver=1" id="essential-blocks-accordion-frontend-js"></script>
+    <script src="%PUBLIC_URL%/js/rbtools.min.js?ver=6.2.23" id="tp-tools-js"></script>
+    <script src="%PUBLIC_URL%/js/rs6.min.js?ver=6.2.23" id="revmin-js"></script>
+    <script src="%PUBLIC_URL%/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70" id="jquery-blockui-js"></script> -->
+    <!-- <script id="wc-add-to-cart-js-extra">
+    var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/gallerybangladesh.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+    </script> -->
+    <!-- <script src="%PUBLIC_URL%/js/frontend/add-to-cart.min.js?ver=5.0.0" id="wc-add-to-cart-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=6.4.0" id="vc_woocommerce-add-to-cart-js-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js/vendor/jquery.cookie.js?ver=1.4.1" id="cookie-js"></script> -->
+    <!-- <script src="%PUBLIC_URL%/js?id=UA-195346797-1" id="google_gtagjs-js" async=""></script>     -->
+   
+    <!-- <script id="wpcp_disable_Right_Click" type="text/javascript">
+    document.ondragstart = function() { return false;}
+      function nocontext(e) {
+         return false;
+      }
+      document.oncontextmenu = nocontext;
+    </script> -->
+    <style>
+    .unselectable
+    {
+    /* -moz-user-select:none;
+    -webkit-user-select:none; */
+    cursor: default;
+    }
+    html
+    {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+    </style>
+    <script id="wpcp_css_disable_selection" type="text/javascript">
+    var e = document.getElementsByTagName('body')[0];
+    if(e)
+    {
+      e.setAttribute('unselectable',on);
+    }
+    </script>
+      <noscript>
+        <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+            <script type="text/javascript">
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+              n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+              document,'script','https://connect.facebook.net/en_US/fbevents.js');
+          </script>
+          <!-- WooCommerce Facebook Integration Begin -->
+          <script type="text/javascript">
+    
+            fbq('init', '453290359064926', {}, {
+        "agent": "woocommerce-5.0.0-2.6.0"
+    });
+    
+            fbq( 'track', 'PageView', {
+        "source": "woocommerce",
+        "version": "5.0.0",
+        "pluginVersion": "2.6.0"
+    } );
+    
+            document.addEventListener( 'DOMContentLoaded', function() {
+              jQuery && jQuery( function( $ ) {
+                // Insert placeholder for events injected when a product is added to the cart through AJAX.
+                $( document.body ).append( '<div class=\"wc-facebook-pixel-event-placeholder\"></div>' );
+              } );
+            }, false );
+    
+          </script>
+          <!-- WooCommerce Facebook Integration End -->
+          <style type="text/css">
+    body.custom-background #wrapper { background-color: #ffffff; }
+    </style>
+    <script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+		<style id="wp-custom-css">
+			.header .header-main, .header .header-bottom, .header .container, .header .header-items, .header .navigation, .header .et-header-menu, .header .et-header-menu > li {
+          height: 100%;
+          background-color: #fff;
+          border-bottom: 1px solid rgba(0,0,0,0.1);
+          margin-left:0
+      }		
+      </style>
+		<style id="kirki-inline-styles">.header,.header-spacer,.product-header-spacer{height:90px;}.header .logolink .logoimg{max-height:39px;}.top-bar{height:40px !important;line-height:40px;background-color:#282828;}.top-bar,.top-bar .selected,.top-bar a{color:#eeeeee;}.page-header-regular .header, .header_on_scroll .header{background-color:#ffffff;}.header .goya-search button,.header .menu-toggle,.header a{color:#000000;}.et-header-menu .menu-label{background-color:#aaaaaa;}.et-header-menu li >.sub-menu > li{width:240px;}.et-header-menu ul.sub-menu li a{color:#444444;}.et-header-menu .sub-menu .sub-menu,.et-header-menu ul.sub-menu:before{background-color:#ffffff;}.et-header-menu>li.menu-item-has-children > a:after{border-bottom-color:#ffffff;}.side-panel .mobile-bar,.side-panel .mobile-bar.dark{background-color:#f8f8f8;}.side-fullscreen-menu,.side-fullscreen-menu.dark{background-color:#ffffff;}.side-menu.side-mobile-menu,.side-menu.side-mobile-menu.dark{background-color:#ffffff;}.site-footer,.site-footer.dark{background-color:#ffffff;}.mfp #et-quickview{max-width:960px;}.et-product-detail .single_add_to_cart_button, .products:not(.shop_display_list) .et-listing-style4 .after_shop_loop_actions .add_to_cart_button.button, .woocommerce-mini-cart__buttons .button.checkout, .button.checkout-button, #place_order.button, .woocommerce .argmc-wrapper .argmc-nav-buttons .argmc-submit{background-color:#000000;}.product-showcase-light-text .showcase-inner .single_add_to_cart_button{background-color:#ffffff;}.product-showcase-light-text .et-product-detail .single_add_to_cart_button{color:#181818;}.star-rating > span:before, .comment-form-rating .stars > span:before{color:#282828;}.product-inner .badge.onsale{color:#ef5c5c;background-color:#ffffff;}.et-product-detail .summary .badge.onsale{border-color:#ef5c5c;}.product-inner .badge.new{background-color:#ffffff;}.product-inner .badge.out-of-stock{color:#585858;background-color:#ffffff;}.mfp-wrap.quick-search .mfp-content [type="submit"], .et-close, .single-product .pswp__button:hover, .content404 h4, .et-cart-empty .cart-empty, .woocommerce-tabs .tabs li a span, .woo-variation-gallery-wrapper .woo-variation-gallery-trigger:hover:after, .mobile-menu li.menu-item-has-children.active > .et-menu-toggle:after, .mobile-menu li.menu-item-has-children > .et-menu-toggle:hover, .remove:hover, a.remove:hover, .minicart-counter.et-count-zero, .tag-cloud-link .tag-link-count, .wpmc-tabs-wrapper li.wpmc-tab-item.current, div.argmc-wrapper .tab-completed-icon:before, .widget .wc-layered-nav-rating.chosen, .widget ul li.active, .woocommerce .widget_layered_nav ul.yith-wcan-list li.chosen a, .woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a, .widget.widget_layered_nav li.chosen a, .widget.widget_layered_nav li.current-cat a, .widget.widget_layered_nav_filters li.chosen a, .widget.widget_layered_nav_filters li.current-cat a, .et-wp-gallery-popup .mfp-arrow, .et-page-load-overlay .dot3-loader{color:#b9a16b;}body, blockquote cite{color:#686868;}h1, h2, h3, h4, h5, h6{color:#282828;}input[type="text"], input[type="password"], input[type="number"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="time"], input[type="month"], input[type="week"], input[type="email"], input[type="search"], input[type="tel"], input[type="url"], input.input-text, select, textarea, .wp-block-button__link, .nf-form-cont .nf-form-content .list-select-wrap .nf-field-element > div, .nf-form-cont .nf-form-content input:not([type="button"]), .nf-form-cont .nf-form-content textarea, .nf-form-cont .nf-form-content .submit-wrap .ninja-forms-field, .button, .comment-form-rating, .woocommerce a.ywsl-social, .login a.ywsl-social, input[type=submit], .select2.select2-container--default .select2-selection--single, .woocommerce .woocommerce-MyAccount-content .shop_table .woocommerce-button, .woocommerce .sticky-product-bar .quantity, .woocommerce .et-product-detail .summary .quantity, .et-product-detail .summary .yith-wcwl-add-to-wishlist > div > a, .wishlist_table .add_to_cart.button, .yith-wcwl-add-button a.add_to_wishlist, .yith-wcwl-popup-button a.add_to_wishlist, .wishlist_table a.ask-an-estimate-button, .wishlist-title a.show-title-form, .hidden-title-form a.hide-title-form, .woocommerce .yith-wcwl-wishlist-new button, .wishlist_manage_table a.create-new-wishlist, .wishlist_manage_table button.submit-wishlist-changes, .yith-wcwl-wishlist-search-form button.wishlist-search-button, #side-filters.side-panel .et-close{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}.button, input[type=submit]{background-color:#282828;}.button.outlined, .button.outlined:hover, .woocommerce-Reviews .comment-reply-title:hover{color:#282828;}.fancy-title{color:#b9a16b;}.fancy-tag{background-color:#282828;}body{font-family:Jost, sans-serif;font-weight:400;line-height:1.7;}.font-catcher{font-family:Jost, sans-serif;font-weight:400;}body, blockquote cite, div.vc_progress_bar .vc_single_bar .vc_label, div.vc_toggle_size_sm .vc_toggle_title h4{font-size:16px !important;}.wp-caption-text, .woocommerce-breadcrumb, .post.listing .listing_content .post-meta, .footer-bar .footer-bar-content, .side-menu .mobile-widgets p, .side-menu .side-widgets p, .shop_table.cart tbody tr td .update-cart, .shop_table.cart tbody tr td .remove_item, .products .product.product-category a div h2 .count, #payment .payment_methods li .payment_box, #payment .payment_methods li a.about_paypal, .et-product-detail .summary .sizing_guide, #reviews .commentlist li .comment-text .woocommerce-review__verified, #reviews .commentlist li .comment-text .woocommerce-review__published-date, .commentlist > li .comment-meta, .widget .type-post .post-meta, .widget_rss .rss-date, .wp-block-latest-comments__comment-date, .wp-block-latest-posts__post-date, .commentlist > li .reply, .comment-reply-title small, .commentlist .bypostauthor .post-author, .commentlist .bypostauthor > .comment-body .fn:after, .et-portfolio.et-portfolio-style-hover-card .type-portfolio .et-portfolio-excerpt{font-size:14px;}@media only screen and (min-width: 768px){.header_on_scroll:not(.megamenu-active) .header{height:70px;}.light-title:not(.header_on_scroll) .header .et-header-menu>li> a,.light-title:not(.header_on_scroll) .header .icon,.light-title:not(.header_on_scroll) .header .menu-toggle,.light-title:not(.header_on_scroll) .header .site-title,.light-title:not(.header_on_scroll) span.minicart-counter.et-count-zero,.sticky-header-light.header_on_scroll .header .et-header-menu>li> a,.sticky-header-light.header_on_scroll .header .icon,.sticky-header-light.header_on_scroll .header .menu-toggle{color:#ffffff;}}@media only screen and (max-width: 767px){.header .logolink .logoimg{max-height:30px;}.header-transparent-mobiles.light-title:not(.header_on_scroll) .header .menu-toggle,.header-transparent-mobiles.light-title:not(.header_on_scroll) .header a.icon,.header-transparent-mobiles.sticky-header-light.header_on_scroll .header .menu-toggle,.header-transparent-mobiles.sticky-header-light.header_on_scroll .header a.icon,.sticky-header-light .header .menu-toggle:hover{color:#ffffff;}.header,.header-spacer,.header_on_scroll .header,.product-header-spacer,.sticky-product-bar{height:70px;}}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1579142113600{margin-top: 8vh !important;margin-bottom: 5vh !important;}.vc_custom_1579142142505{margin-top: 8vh !important;margin-bottom: 4vh !important;}.vc_custom_1579111652347{margin-top: 8vh !important;margin-bottom: 8vh !important;}.vc_custom_1606025417988{padding-top: 15px !important;}.vc_custom_1606025429535{margin-bottom: 0px !important;padding-bottom: 15px !important;}
+    </style>
+    <noscript>
+      <style> .wpb_animate_when_almost_visible { opacity: 1; }
+      </style>
+    </noscript>
+    <!-- <script>
+    $('html, body').animate({
+  scrollTop: $("#header").offset().top - $("#nav").height() // minus the nav height
+}, 1000);
+ </script> -->
+ <!-- <script>
+   $(window).scroll(function(e){ 
+  var $el = $('.header-contents'); 
+  var isPositionFixed = ($el.css('position') == 'fixed');
+  if ($(this).scrollTop() > 200 && !isPositionFixed){ 
+    $el.css({'position': 'fixed', 'top': '0px'}); 
+  }
+  if ($(this).scrollTop() < 200 && isPositionFixed){
+    $el.css({'position': 'static', 'top': '0px'}); 
+  } 
+});
+ </script> -->
+ <!-- <script>
+ stickyElem = document.querySelector(".container");
+     
+ /* Gets the amount of height
+ of the element from the
+ viewport and adds the
+ pageYOffset to get the height
+ relative to the page */
+ currStickyPos = stickyElem.getBoundingClientRect().top + window.pageYOffset;
+ window.onscroll = function() {
+      
+     /* Check if the current Y offset
+     is greater than the position of
+     the element */
+     if(window.pageYOffset > currStickyPos) {
+         stickyElem.style.position = "fixed";
+         stickyElem.style.top = "0px";
+     } else {
+         stickyElem.style.position = "relative";
+         stickyElem.style.top = "initial";
+     }
+ }
+ </script> -->
+ <link rel="stylesheet" id="wcfm_core_css-css" href="%PUBLIC_URL%/css/_reboot.scss?" media="all">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
   </head>
-  <body>
+
+  <body data-rsssl="1">
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root" ></div>
+    <!--  style="text-align: center;align-items: center;align-self: center;" -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +448,87 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- <footer id="colophon" class="footer site-footer light">
+
+		
+			
+      <div class="footer-widgets footer-toggle-widgets">
+        <div class="container">
+          <div class="row">
+            
+        
+            <div class="col-12 col-md-6 col-lg-3 footer1">
+              <div id="nav_menu-1" class="widget cf widget_nav_menu"><h6 class="active">Company<span></span></h6><div class="menu-company-container" style="display: none;"><ul id="menu-company" class="menu"><li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"><a href="https://gallerybangladesh.com/about-us/">About Us</a></li>
+      <li id="menu-item-3023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3023"><a href="https://gallerybangladesh.com/contact/">Contact</a></li>
+      <li id="menu-item-6538" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6538"><a href="https://gallerybangladesh.com/refund-and-return-policy/">Refund and Return Policy</a></li>
+      <li id="menu-item-7191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7191"><a href="https://gallerybangladesh.com/terms-conditions/">Terms &amp; Conditions</a></li>
+      <li id="menu-item-7192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-7192"><a href="https://gallerybangladesh.com/privacy-policy/">Privacy Policy</a></li>
+      </ul></div></div>			</div>
+            
+          
+            <div class="col-12 col-md-6 col-lg-3 footer2">
+              <div id="nav_menu-2" class="widget cf widget_nav_menu"><h6 class="active">Help<span></span></h6><div class="menu-help-container" style="display: none;"><ul id="menu-help" class="menu"><li id="menu-item-7189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7189"><a href="https://gallerybangladesh.com/guidelines/">Guidelines</a></li>
+      <li id="menu-item-3025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3025"><a href="https://gallerybangladesh.com/faq/">FAQ</a></li>
+      <li id="menu-item-7511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7511"><a href="https://gallerybangladesh.com/site-map/">Site Map</a></li>
+      </ul></div></div>			</div>
+            
+          
+            <div class="col-12 col-md-6 col-lg-3 footer3">
+              <div id="et_social_media_widget-1" class="widget cf et_widget et_widget_social_media"><h6 class="active">Follow Us<span></span></h6>
+          <div class="social_widget" style="display: none;">
+                  <ul class="social-icons">
+                          <li><a href="https://www.facebook.com/GalleryBangladeshFB" title="facebook" target="_blank"><i class="et-icon et-facebook"></i></a></li>
+                            <li><a href="#" title="twitter" target="_blank"><i class="et-icon et-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/gallerybangladesh_insta/" title="instagram" target="_blank"><i class="et-icon et-instagram"></i></a></li>
+                            <li><a href="#" title="pinterest" target="_blank"><i class="et-icon et-pinterest"></i></a></li>
+                      </ul>
+          </div>
+          
+          </div>			</div>
+            
+          
+            <div class="col-12 col-md-6 col-lg-3 footer4">
+              <div id="text-4" class="widget cf widget_text"><h6 class="active">Gallery Bangladesh<span></span></h6>			<div class="textwidget" style="display: none;"><ul>
+      <li>+8801813678774</li>
+      <li>info@gallerybangladesh.com</li>
+      <li>441, West Rampura, Dhaka-1219</li>
+      </ul>
+      <p>&nbsp;</p>
+      <ul>
+      <li>Trade License: 151094</li>
+      </ul>
+      </div>
+          </div>			</div>
+            
+            
+        
+            </div>
+        </div>
+      </div>
+      
+      
+              <div class="footer-middle footer-widgets">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+              <div class="aligncenter"><img class="alignnone wp-image-8152 size-large" src="https://gallerybangladesh.com/wp-content/uploads/2021/11/shurjoPay-Footer.-1024x155.png" alt="" width="1024" height="155"></div>				</div>
+            </div>
+          </div>
+        </div>
+      
+                
+      
+          
+      <div id="footer-bar" class="footer-bar footer-main footer-normal dark footer-bar-border-1 custom-color-">
+        <div class="container">
+                <div class="footer-items footer-left">
+                    </div>
+                <div class="footer-items footer-center">
+                    </div>
+                <div class="footer-items footer-right">
+              <div class="copyright">© 2021 All Rights Reserved Gallery Bangladesh || Design &amp; Develop by Creative Tech Park </div>			</div>
+            </div>
+      </div>	
+      </footer> -->
   </body>
 </html>

@@ -26,8 +26,8 @@ export const LogoText = styled.h2`
 
 const index = () => {
   return <LogoWrapper>
-    <LogoImg><img src={image} alt='logo'/></LogoImg>
-    <LogoText>NFT LAB.</LogoText>
+    <LogoImg><img src={image} alt='logo'  class="logoimg bg--light"/></LogoImg>
+    <LogoText>NFT LAB</LogoText>
   </LogoWrapper>;
 };
 

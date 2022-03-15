@@ -1,7 +1,7 @@
 import React from "react";
-import LocalFileUpload from "./LocalFileUpload";
-import GlobalFileUpload from "./GlobalFileUpload";
-import DropDownList from "./DropdownList";
+import LocalFileUpload from "./FileUploadLocal";
+import GlobalFileUpload from "./FileUploadGlobal";
+
 
 function Radio () {
   const [status, setStatus] = React.useState(0) // 0: no show, 1: show yes, 2: show no.
@@ -21,9 +21,7 @@ function Radio () {
             {status === 1 && <LocalFileUpload/>}
             {status === 2 && <GlobalFileUpload/>}
         </div> 
-        <div style={{height:10}}>
-            <DropDownList/>    
-        </div>     
+             
     </div>
   );
 }

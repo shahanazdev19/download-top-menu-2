@@ -13,30 +13,8 @@ function UploadItem() {
 
       
   return (
-    <React.Fragment>       
-
-    {/* <div className="radio-buttons">
-
-        Local
-        <input
-          id="windows"
-          value="windows"
-          name="platform"
-          type="radio"
-          onChange={this.handleChange}
-        />
-        Global
-        <input
-          id="mac"
-          value="mac"
-          name="platform"
-          type="radio"
-          onChange={this.handleChange}
-          defaultChecked
-        />       
-      </div> */}
-  
-    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '10vh', paddingTop:230}} className="">     
+    <React.Fragment>      
+    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '10vh', paddingTop:150}} className="">     
         <Radio/>
     </div>     
  </React.Fragment>
